@@ -174,7 +174,7 @@ def initTimetable():
     timetable[lineSplit[1]] = control
   return timetable
 
-#### spusteni programu
+#### spusteni programu ####
 if __name__== "__main__":
   timetable = initTimetable()
   processResult()
